@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Score__c</fullName>
+    <label>Credit Score</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>POOR</fullName>
+                <default>false</default>
+                <label>POOR</label>
+            </value>
+            <value>
+                <fullName>FAIR</fullName>
+                <default>false</default>
+                <label>FAIR</label>
+            </value>
+            <value>
+                <fullName>GOOD</fullName>
+                <default>false</default>
+                <label>GOOD</label>
+            </value>
+            <value>
+                <fullName>EXCELLENT</fullName>
+                <default>false</default>
+                <label>EXCELLENT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

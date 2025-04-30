@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areHeadersIncludedInFile>false</areHeadersIncludedInFile>
+    <bulkIngest>false</bulkIngest>
+    <creationType>Custom</creationType>
+    <dataConnector>SalesforceDotCom_LoanHistory</dataConnector>
+    <dataConnectorType>SalesforceDotCom</dataConnectorType>
+    <dataExtractMethods>FULL_REFRESH</dataExtractMethods>
+    <dataPlatformDataSetItemName>SFDC</dataPlatformDataSetItemName>
+    <dataSource>Salesforce_LoanHistory</dataSource>
+    <isLimitedToNewFiles>false</isLimitedToNewFiles>
+    <isMissingFileFailure>false</isMissingFileFailure>
+    <masterLabel>Loan_History__c_LoanHistory</masterLabel>
+    <mktDataLakeObject>Loan_History_c_LoanHistory__dll</mktDataLakeObject>
+    <mktDataTranObject>Loan_History_c_LoanHistory</mktDataTranObject>
+</DataStreamDefinition>
